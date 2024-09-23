@@ -1,4 +1,4 @@
-# base16-waybar
+# base16-nwg-dock
 
 <!-- markdownlint-disable MD013 -->
 
