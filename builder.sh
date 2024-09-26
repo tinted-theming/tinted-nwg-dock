@@ -2,7 +2,9 @@
 
 declare -g configFile="./templates/config.yaml"
 declare -g fileName
+declare -g headFileTemplate="./templates/head.mustache"
 declare -g headJson
+declare -g bodyFileTemplate="./templates/body.mustache"
 declare -g bodyJson
 declare -g tmpBodyJson
 
@@ -30,7 +32,7 @@ declare -g tokenDecG
 declare -g tokenDecB
 
 readarray -t schemesFiles < <(find "$schemesPath" -type f -iname '*.yaml')
-readarray -t necessaryTokensPaletteList < <(grep -oP '\{\{\K[^}]+(?=\}\})' ./templates/body.mustache | awk -F'.' '{print $1}' | sort -u)
+readarray -t necessaryTokensPaletteList < <(grep -oP '\{\{\K[^}]+(?=\}\})' "$bodyFileTemplate" | awk -F'.' '{print $1}' | sort -u)
 
 function getProperty() {
 	yq -oy "$schemeFile" | yq -o=json -r ".$1"
@@ -136,10 +138,10 @@ for schemeFile in "${schemesFiles[@]}"; do
 
 	createFile
 
-	lustache-cli -i ./templates/head.mustache --json-data "$headJson" >./"$fileName"
+	lustache-cli -i "$headFileTemplate" --json-data "$headJson" >./"$fileName"
 
 	echo >>./"$fileName"
 
-	lustache-cli -i ./templates/body.mustache --json-data "$bodyJson" >>./"$fileName"
+	lustache-cli -i "$bodyFileTemplate" --json-data "$bodyJson" >>./"$fileName"
 
 done
