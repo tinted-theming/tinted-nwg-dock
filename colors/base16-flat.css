@@ -21,5 +21,5 @@ image {
 }
 
 button:hover {
-    background-color: rgba(236, 240, 241, 0.15);
+    background-color: rgba(236, 240, 241, 0.4);
 }
