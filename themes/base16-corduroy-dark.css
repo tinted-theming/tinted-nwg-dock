@@ -1,0 +1,24 @@
+/*
+*
+* name: Corduroy Dark
+* author: taysatte (https://github.com/taysatte)
+* slug: corduroy-dark
+* slug-underscored: corduroy_dark
+* system: base16
+* variant: dark
+*
+*/
+
+window {
+    background-color: #141016;
+    border-color: #dc92a3;
+}
+
+button,
+image {
+    color: #9a8d9e;
+}
+
+button:hover {
+    background-color: rgba(90, 81, 96, 0.4);
+}

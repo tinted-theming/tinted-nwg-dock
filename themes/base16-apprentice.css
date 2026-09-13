@@ -1,7 +1,7 @@
 /*
 *
 * name: Apprentice
-* author: romainl
+* author: Romain Lafourcade (https://github.com/romainl)
 * slug: apprentice
 * slug-underscored: apprentice
 * system: base16
@@ -11,14 +11,14 @@
 
 window {
     background-color: #262626;
-    border-color: #8787af;
+    border-color: #5f87af;
 }
 
 button,
 image {
-    color: #5f87af;
+    color: #6c6c6c;
 }
 
 button:hover {
-    background-color: rgba(108, 108, 108, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
 }
