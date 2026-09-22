@@ -5,8 +5,8 @@
 This repo provides templates for using [Base16](https://github.com/tinted-theming/home) color schemes with:
 - [nwg-dock](https://github.com/nwg-piotr/nwg-dock);
 - [nwg-dock-hyperland](https://github.com/nwg-piotr/nwg-dock-hyprland);
-- [nwg-dock-hypreland](https://github.com/jasonherald/mac-doc-hyprland?tab=readme-ov-file#dock-nwg-dock-hyprland), written in Rust;
-- [nwg-drawer](https://github.com/jasonherald/mac-doc-hyprland?tab=readme-ov-file#dock-nwg-dock-hyprland),  written in Rust.
+- [nwg-dock](https://github.com/jasonherald/nwg-dock), written in Rust;
+- [nwg-drawer](https://github.com/jasonherald/nwg-drawer), written in Rust.
 
 a GTK3-based dock for [Sway](https://github.com/swaywm/sway) and [Hyperland](https://hyprland.org/).
 
@@ -70,6 +70,13 @@ button:focus {
 >
 > `transition` property support only: [nwg-dock-hypreland](https://github.com/jasonherald/mac-doc-hyprland?tab=readme-ov-file#theming), [nwg-dock-drawer](https://github.com/jasonherald/mac-doc-hyprland?tab=readme-ov-file#theming) written in Rust.
 
+> **Warning**
+>
+> For the Rust-based version `nwg-dock`, there is an issue with dynamic theme switching involving the CSS `@import` directive; see the [issue](https://github.com/jasonherald/nwg-dock/issues/38).
+>
+> To *fix* it, use a `hook` specified below.
+>```
+
 ### Manual
 
 You can find an example config in `examples/style.css`.
@@ -79,7 +86,6 @@ Place this file in the directory depending on what you are using:
 | App                  | Path                                   |
 |----------------------|----------------------------------------|
 | `nwg-dock`           | `$XDG_CONFIG_HOME/nwg-dock/`           |
-| `nwg-dock-hyperland` | `$XDG_CONFIG_HOME/nwg-dock-hyperland/` |
 | `nwg-drawer`         | `$XDG_CONFIG_HOME/nwg-drawer/`         |
 
 ### Tinty
@@ -92,6 +98,7 @@ name = "tinted-nwg-dock"
 path = "https://github.com/tinted-theming/tinted-nwg-dock"
 themes-dir = "themes"
 supported-systems = ["base16"]
+hook = "sed -i -e '2s/^@/#/' ~/.config/nwg-dock/style.css && sed -i -e '2s/^#/@/' ~/.config/nwg-dock/style.css"
 ```
 
 2. Add `@import` directive to your `~/.config/nwg-dock/style.css` with path to `~/.local/share/tinted-theming/tinty/tinted-nwg-dock-themes-file.css`, as in the [usage](#usage) section.
