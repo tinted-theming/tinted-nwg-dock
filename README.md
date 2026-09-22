@@ -68,7 +68,7 @@ button:focus {
 
 > **Note** 
 >
-> `transition` property support only: [nwg-dock-hypreland](https://github.com/jasonherald/mac-doc-hyprland?tab=readme-ov-file#theming), [nwg-dock-drawer](https://github.com/jasonherald/mac-doc-hyprland?tab=readme-ov-file#theming) written in Rust.
+> `transition` property support only: [nwg-dock](https://github.com/jasonherald/nwg-dock#theming), [nwg-dock-drawer](https://github.com/jasonherald/nwg-drawer#theming) written in Rust.
 
 > **Warning**
 >
