@@ -75,7 +75,6 @@ button:focus {
 > For the Rust-based version `nwg-dock`, there is an issue with dynamic theme switching involving the CSS `@import` directive; see the [issue](https://github.com/jasonherald/nwg-dock/issues/38).
 >
 > To *fix* it, use a `hook` specified below.
->```
 
 ### Manual
 
