@@ -1,0 +1,24 @@
+/*
+*
+* name: X
+* author: xscriptor (https://github.com/xscriptor)
+* slug: x
+* slug-underscored: x
+* system: base16
+* variant: dark
+*
+*/
+
+window {
+    background-color: #050505;
+    border-color: #fd9353;
+}
+
+button,
+image {
+    color: #8a878e;
+}
+
+button:hover {
+    background-color: rgba(247, 241, 255, 0.4);
+}

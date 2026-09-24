@@ -1,0 +1,24 @@
+/*
+*
+* name: Lahabana
+* author: xscriptor (https://github.com/xscriptor)
+* slug: lahabana
+* slug-underscored: lahabana
+* system: base16
+* variant: dark
+*
+*/
+
+window {
+    background-color: #19191a;
+    border-color: #fd9353;
+}
+
+button,
+image {
+    color: #939098;
+}
+
+button:hover {
+    background-color: rgba(247, 241, 255, 0.4);
+}

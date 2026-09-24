@@ -1,0 +1,24 @@
+/*
+*
+* name: Miami
+* author: xscriptor (https://github.com/xscriptor)
+* slug: miami
+* slug-underscored: miami
+* system: base16
+* variant: dark
+*
+*/
+
+window {
+    background-color: #000000;
+    border-color: #00ffa8;
+}
+
+button,
+image {
+    color: #88858c;
+}
+
+button:hover {
+    background-color: rgba(247, 241, 255, 0.4);
+}

@@ -1,0 +1,24 @@
+/*
+*
+* name: Madrid
+* author: xscriptor (https://github.com/xscriptor)
+* slug: madrid
+* slug-underscored: madrid
+* system: base16
+* variant: light
+*
+*/
+
+window {
+    background-color: #fafafa;
+    border-color: #007a9e;
+}
+
+button,
+image {
+    color: #686868;
+}
+
+button:hover {
+    background-color: rgba(26, 26, 26, 0.4);
+}

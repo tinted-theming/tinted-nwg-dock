@@ -1,0 +1,24 @@
+/*
+*
+* name: Helsinki
+* author: xscriptor (https://github.com/xscriptor)
+* slug: helsinki
+* slug-underscored: helsinki
+* system: base16
+* variant: light
+*
+*/
+
+window {
+    background-color: #f8fafe;
+    border-color: #b55a0f;
+}
+
+button,
+image {
+    color: #8d8a82;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}

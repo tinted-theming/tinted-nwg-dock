@@ -1,0 +1,24 @@
+/*
+*
+* name: Paris
+* author: xscriptor (https://github.com/xscriptor)
+* slug: paris
+* slug-underscored: paris
+* system: base16
+* variant: dark
+*
+*/
+
+window {
+    background-color: #1a0a30;
+    border-color: #a3f3ff;
+}
+
+button,
+image {
+    color: #9489a2;
+}
+
+button:hover {
+    background-color: rgba(247, 241, 255, 0.4);
+}

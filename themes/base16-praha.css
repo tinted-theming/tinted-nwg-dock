@@ -1,0 +1,24 @@
+/*
+*
+* name: Praha
+* author: xscriptor (https://github.com/xscriptor)
+* slug: praha
+* slug-underscored: praha
+* system: base16
+* variant: dark
+*
+*/
+
+window {
+    background-color: #1a1a1a;
+    border-color: #bd93f9;
+}
+
+button,
+image {
+    color: #989898;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}

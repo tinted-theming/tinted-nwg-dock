@@ -1,0 +1,24 @@
+/*
+*
+* name: Tokio
+* author: xscriptor (https://github.com/xscriptor)
+* slug: tokio
+* slug-underscored: tokio
+* system: base16
+* variant: dark
+*
+*/
+
+window {
+    background-color: #1c1c1d;
+    border-color: #fd9353;
+}
+
+button,
+image {
+    color: #949199;
+}
+
+button:hover {
+    background-color: rgba(247, 241, 255, 0.4);
+}

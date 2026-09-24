@@ -1,0 +1,24 @@
+/*
+*
+* name: Bogota
+* author: xscriptor (https://github.com/xscriptor)
+* slug: bogota
+* slug-underscored: bogota
+* system: base16
+* variant: dark
+*
+*/
+
+window {
+    background-color: #200b0a;
+    border-color: #47e6ff;
+}
+
+button,
+image {
+    color: #968a91;
+}
+
+button:hover {
+    background-color: rgba(247, 241, 255, 0.4);
+}
