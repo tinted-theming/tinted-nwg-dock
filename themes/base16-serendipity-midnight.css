@@ -1,0 +1,24 @@
+/*
+*
+* name: Serendipity Midnight
+* author: Micheal Andreuzza (https://michaelandreuzza.com/)
+* slug: serendipity-midnight
+* slug-underscored: serendipity_midnight
+* system: base16
+* variant: dark
+*
+*/
+
+window {
+    background-color: #151726;
+    border-color: #94b8ff;
+}
+
+button,
+image {
+    color: #8d8f9e;
+}
+
+button:hover {
+    background-color: rgba(21, 23, 38, 0.4);
+}

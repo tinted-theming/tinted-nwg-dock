@@ -1,0 +1,24 @@
+/*
+*
+* name: Sequoia Moonlight Light
+* author: Micheal Andreuzza (https://michaelandreuzza.com/)
+* slug: sequoia-moonlight-light
+* slug-underscored: sequoia_moonlight_light
+* system: base16
+* variant: light
+*
+*/
+
+window {
+    background-color: #edeef2;
+    border-color: #9a5fd9;
+}
+
+button,
+image {
+    color: #42434e;
+}
+
+button:hover {
+    background-color: rgba(15, 16, 20, 0.4);
+}

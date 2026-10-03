@@ -1,0 +1,24 @@
+/*
+*
+* name: Serendipity Morning
+* author: Micheal Andreuzza (https://michaelandreuzza.com/)
+* slug: serendipity-morning
+* slug-underscored: serendipity_morning
+* system: base16
+* variant: light
+*
+*/
+
+window {
+    background-color: #f6f7fb;
+    border-color: #6288d8;
+}
+
+button,
+image {
+    color: #505575;
+}
+
+button:hover {
+    background-color: rgba(246, 247, 251, 0.4);
+}

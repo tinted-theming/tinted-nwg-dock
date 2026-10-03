@@ -1,0 +1,24 @@
+/*
+*
+* name: Serendipity Sunset
+* author: Micheal Andreuzza (https://michaelandreuzza.com/)
+* slug: serendipity-sunset
+* slug-underscored: serendipity_sunset
+* system: base16
+* variant: dark
+*
+*/
+
+window {
+    background-color: #202231;
+    border-color: #a0b6e8;
+}
+
+button,
+image {
+    color: #6b6d7c;
+}
+
+button:hover {
+    background-color: rgba(32, 34, 49, 0.4);
+}

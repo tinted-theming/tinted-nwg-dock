@@ -10,13 +10,13 @@
 */
 
 window {
-    background-color: #0a0c10;
-    border-color: #dbb7ff;
+    background-color: #0d1117;
+    border-color: #71b7ff;
 }
 
 button,
 image {
-    color: #bdc4cc;
+    color: #9198a1;
 }
 
 button:hover {

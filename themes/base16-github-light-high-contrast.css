@@ -11,14 +11,14 @@
 
 window {
     background-color: #ffffff;
-    border-color: #622cbc;
+    border-color: #0349b4;
 }
 
 button,
 image {
-    color: #66707b;
+    color: #59636e;
 }
 
 button:hover {
-    background-color: rgba(14, 17, 22, 0.4);
+    background-color: rgba(1, 4, 9, 0.4);
 }

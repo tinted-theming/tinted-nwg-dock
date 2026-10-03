@@ -1,0 +1,24 @@
+/*
+*
+* name: Sequoia Moonlight Dark
+* author: Micheal Andreuzza (https://michaelandreuzza.com/)
+* slug: sequoia-moonlight-dark
+* slug-underscored: sequoia_moonlight_dark
+* system: base16
+* variant: dark
+*
+*/
+
+window {
+    background-color: #0f1014;
+    border-color: #c58fff;
+}
+
+button,
+image {
+    color: #575861;
+}
+
+button:hover {
+    background-color: rgba(15, 16, 20, 0.4);
+}

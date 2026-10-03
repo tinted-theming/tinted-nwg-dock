@@ -1,0 +1,24 @@
+/*
+*
+* name: Sequoia Monochrome Light
+* author: Micheal Andreuzza (https://michaelandreuzza.com/)
+* slug: sequoia-monochrome-light
+* slug-underscored: sequoia_monochrome_light
+* system: base16
+* variant: light
+*
+*/
+
+window {
+    background-color: #edeef2;
+    border-color: #5f6370;
+}
+
+button,
+image {
+    color: #42434e;
+}
+
+button:hover {
+    background-color: rgba(15, 16, 20, 0.4);
+}
